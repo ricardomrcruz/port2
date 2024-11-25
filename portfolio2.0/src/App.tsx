@@ -1,6 +1,7 @@
 import { Suspense } from "react";
 import ModelViewer from "./components/modelViewer";
 import Accordion from "./components/accordion1";
+import Accordion2 from "./components/accordion2";
 
 function App() {
   // Correct path - just the filename with forward slash
@@ -8,14 +9,14 @@ function App() {
 
   return (
     <div className="w-full flex flex-col text-white">
-      <header className="h-[10vh]">
+      {/* <header className="h-[10vh]">
         <nav className="flex">
           <a href="">Home</a>
           <a href="">Work</a>
           <a href="">Blog</a>
         </nav>
-      </header>
-      <section className=" bg-black mt-[2vh]">
+      </header> */}
+      <section className=" bg-black mt-[20vh]">
         <div className="container mx-auto ">
           <Suspense
             fallback={
@@ -52,7 +53,7 @@ function App() {
           </div>
         </div>
         <div className="my-10">
-          <h2 className="text-2xl">About</h2>
+          <h2 className="text-2xl mb-2">About</h2>
           <p className="text-gray-400 text-base text-justify">
             Ricardo Martinho is a full-stack web developer who has been involved
             in enterprise projects and{" "}
@@ -75,6 +76,7 @@ function App() {
           </p>
         </div>
         <Accordion />
+        <Accordion2 />
       </section>
     </div>
   );
