@@ -18,7 +18,7 @@ function App() {
         </nav>
       </header> */}
       <section className=" bg-black mt-[20vh]">
-        <div className="container mx-auto ">
+        <div className="container mx-auto  ">
           <Suspense
             fallback={
               <div className="h-[50vh] w-full flex items-center justify-center">

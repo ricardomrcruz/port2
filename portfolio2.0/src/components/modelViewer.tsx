@@ -32,7 +32,7 @@ export default function ModelViewer({
   autoRotate = true,
 }: any) {
   return (
-    <div className="h-[50vh] w-[50%] m-auto relative bg-black pb-[-20px]">
+    <div className="h-[50vh] w-[50%] m-auto relative bg-black pb-[-20px] cursor-grabbing">
       <Canvas>
         <color attach="background" args={["#000000"]} />
 

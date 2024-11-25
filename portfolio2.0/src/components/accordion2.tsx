@@ -124,7 +124,7 @@ export default function Accordion2() {
               </div>
 
               <p className="text-xs">
-                Associate's Degree Software Developement (Bac+2)
+                Associate's Degree Software Developement ( Bac+2 )
               </p>
             </div>
           </span>
