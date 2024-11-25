@@ -2,6 +2,7 @@ import { Suspense } from "react";
 import ModelViewer from "./components/modelViewer";
 import Accordion from "./components/accordion1";
 import Accordion2 from "./components/accordion2";
+import Skills from "./components/skills";
 
 function App() {
   // Correct path - just the filename with forward slash
@@ -77,6 +78,7 @@ function App() {
         </div>
         <Accordion />
         <Accordion2 />
+        <Skills />
       </section>
     </div>
   );
