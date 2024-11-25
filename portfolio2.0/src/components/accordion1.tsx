@@ -21,7 +21,7 @@ export default function Accordion() {
       <div id="accordion-open-heading-1 ">
         <button
           type="button"
-          className="group flex items-center justify-between w-full  font-medium rtl:text-right   gap-3"
+          className="group flex items-center justify-between w-full  font-medium rtl:text-right  gap-3"
           aria-expanded={openAccordion["accordion-open-body-1"]}
           aria-controls="accordion-open-body-1"
           onClick={() => toggleAccordion("accordion-open-body-1")}
