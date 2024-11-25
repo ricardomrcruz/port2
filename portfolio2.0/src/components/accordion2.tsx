@@ -1,6 +1,6 @@
 export default function Accordion2() {
   return (
-    <div id="accordion-open" data-accordion="open" className=" mt-6">
+    <div id="accordion-open" data-accordion="open" className=" mt-4">
       <h2 className="text-2xl mb-3">Education</h2>
       {/* WORK NUMBER 1 */}
       <div className=" mb-3">

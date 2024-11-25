@@ -77,7 +77,7 @@ export default function Accordion() {
       <div
         id="accordion-open-body-1 "
         aria-labelledby="accordion-open-heading-1"
-        className={` transition-all ease-out overflow-hidden pt-3 px-2 text-sm ${
+        className={` transition-all ease-out overflow-hidden py-3 px-2 text-sm ${
           openAccordion["accordion-open-body-1"]
             ? "max-h-96 opacity-100 "
             : "max-h-0 opacity-0 "
@@ -150,7 +150,7 @@ export default function Accordion() {
       <div
         id="accordion-open-body-2 "
         aria-labelledby="accordion-open-heading-2"
-        className={` transition-all ease-out overflow-hidden pt-3 px-2 text-sm  ${
+        className={` transition-all ease-out overflow-hidden py-3 px-2 text-sm  ${
           openAccordion["accordion-open-body-2"]
             ? "max-h-96 opacity-100 "
             : "max-h-0 opacity-0 "
@@ -225,7 +225,7 @@ export default function Accordion() {
       <div
         id="accordion-open-body-3"
         aria-labelledby="accordion-open-heading-3"
-        className={` transition-all ease-out overflow-hidden  pt-3 px-2 text-sm ${
+        className={` transition-all ease-out overflow-hidden  py-3 px-2 text-sm ${
           openAccordion["accordion-open-body-3"]
             ? "max-h-96 opacity-100 "
             : "max-h-0 opacity-0 "
