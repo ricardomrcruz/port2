@@ -15,7 +15,7 @@ function Model({ modelPath, scale = 1, autoRotate = true }: ModelProps) {
 
   useFrame(() => {
     if (autoRotate && group.current) {
-      group.current.rotation.y += 0.003;
+      group.current.rotation.y += 0.001;
     }
   });
 

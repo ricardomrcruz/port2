@@ -1,7 +1,7 @@
 export default function Accordion2() {
   return (
     <div id="accordion-open" data-accordion="open" className=" mt-4">
-      <h2 className="text-2xl mb-3">Education</h2>
+      <h2 className="text-xl font-bold mb-3">Education</h2>
       {/* WORK NUMBER 1 */}
       <div className="group mb-3">
         <div className=" flex items-center justify-between w-full  font-medium rtl:text-right   gap-3">

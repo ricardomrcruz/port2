@@ -15,8 +15,8 @@ export default function Accordion() {
   };
 
   return (
-    <div id="accordion-open" data-accordion="open" className=" ">
-      <h2 className="text-2xl mb-3">Work Experience</h2>
+    <div id="accordion-open" data-accordion="open">
+      <h2 className="mb-3 text-xl font-bold ">Work Experience</h2>
       {/* WORK NUMBER 1 */}
       <div id="accordion-open-heading-1 ">
         <button
@@ -36,7 +36,7 @@ export default function Accordion() {
             </span>
             <div className="text-left px-4">
               <p>CBD'eau SAS</p>
-              <p className="">Software developer</p>
+              <p className="text-sm text-gray-200">Software developer</p>
             </div>
             <div className="text-left ">
               <p>
@@ -112,7 +112,9 @@ export default function Accordion() {
             </span>
             <div className="text-left px-4">
               <p>Strasbourg Web Solutions</p>
-              <p className="">Fullstack Web Developer Freelancer</p>
+              <p className="text-sm text-gray-200">
+                Fullstack Web Developer Freelancer
+              </p>
             </div>
             <div className="text-left ">
               <p>
@@ -185,7 +187,7 @@ export default function Accordion() {
             </span>
             <div className="text-left px-4">
               <p>MyMetal®</p>
-              <p className="">Intern Web Developer</p>
+              <p className="text-sm text-gray-200">Intern Web Developer</p>
             </div>
             <div className="text-left ">
               <p>

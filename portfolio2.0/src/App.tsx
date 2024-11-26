@@ -3,6 +3,7 @@ import ModelViewer from "./components/modelViewer";
 import Accordion from "./components/accordion1";
 import Accordion2 from "./components/accordion2";
 import Skills from "./components/skills";
+import Projects from "./components/projects";
 
 function App() {
   // Correct path - just the filename with forward slash
@@ -36,38 +37,40 @@ function App() {
       </section>
       <section className="w-[35%] m-auto ">
         <div className="flex w-full justify-between mt-6">
-          <div className="w-[70%] ">
-            <h1 className="text-[3.5rem] py-3">Hi, I'm Ricardo ✌️</h1>
-            <p className="text-lg leading-tight ">
+          <div className="w-[68%] ">
+            <h1 className="text-6xl pt-3 pb-2 font-bold tracking-tighter">
+              Hi, I'm Ricardo ✌️
+            </h1>
+            <p className="text-base leading-snug ">
               Software Web Developer & Freelancer based in Strasbourg, France. I
               build and deploy beautiful business websites and applications.
-              Engineering student and passionate for open-source. Have a project
+              Engineering student and passionate for open source. Have a project
               in mind? Let's connect.
             </p>
           </div>
-          <div className="w-[26%] flex justify-center items-center overflow-hidden mt-4">
+          <div className="w-[26%] flex justify-center items-center overflow-hidden mt-3 ">
             <img
               src="/avatar.jpg"
               alt="Avatar"
-              className="h-[8rem] w-[8rem] rounded-full object-cover "
+              className="h-[8.5rem] w-[8.5rem] rounded-full object-cover "
             />
           </div>
         </div>
         <div className="my-10">
-          <h2 className="text-2xl mb-2">About</h2>
-          <p className="text-gray-400 text-base text-justify">
+          <h2 className="text-xl font-bold mb-2">About</h2>
+          <p className="text-gray-400  text-justify leading-tight prose max-w-full text-pretty font-sans text-sm ">
             Ricardo Martinho is a full-stack web developer who has been involved
             in enterprise projects and{" "}
-            <a href="" className="underline text-purple-900">
+            <a href="" className="underline text-gray-100">
               freelancing
             </a>{" "}
             ventures for the last couple of years. Currently pursuing a{" "}
-            <a href="" className="underline text-purple-900">
+            <a href="" className="underline text-gray-100">
               software engineering degree
             </a>
             , he has built custom ERP/BI solutions in-company, deployed SAAS
             apps and solutions, and contributed actively to the{" "}
-            <a href="" className="underline text-purple-900">
+            <a href="" className="underline text-gray-100">
               open-source community
             </a>
             . He specializes in full-stack development with TypeScript, Node.js,
@@ -79,6 +82,7 @@ function App() {
         <Accordion />
         <Accordion2 />
         <Skills />
+        <Projects />
       </section>
     </div>
   );
