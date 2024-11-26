@@ -36,7 +36,9 @@ export default function Accordion() {
             </span>
             <div className="text-left px-4">
               <p>CBD'eau SAS</p>
-              <p className="text-sm text-gray-200">Software developer</p>
+              <p className="text-xs text-gray-200">
+                Fullstack Software Developer
+              </p>
             </div>
             <div className="text-left ">
               <p>
@@ -112,7 +114,7 @@ export default function Accordion() {
             </span>
             <div className="text-left px-4">
               <p>Strasbourg Web Solutions</p>
-              <p className="text-sm text-gray-200">
+              <p className="text-xs text-gray-300">
                 Fullstack Web Developer Freelancer
               </p>
             </div>
@@ -162,7 +164,7 @@ export default function Accordion() {
           Founder of Strasbourg Web Solutions (POPCVLTVRA) - A freelance IT
           services business operating as a sole proprietorship under SIREN
           number 902 473 867, specializing in e-commerce buying and selling of
-          non-food and non-regulated products. The company offers IT development
+          merchandise and digital products. The company offers IT development
           services using WordPress, PrestaShop, React, Nodejs, and FastAPI,
           creating showcase websites, e-commerce platforms, and applications. We
           provide customized solutions tailored to clients needs and budgets.
@@ -187,7 +189,7 @@ export default function Accordion() {
             </span>
             <div className="text-left px-4">
               <p>MyMetal®</p>
-              <p className="text-sm text-gray-200">Intern Web Developer</p>
+              <p className="text-xs text-gray-300">Intern Web Developer</p>
             </div>
             <div className="text-left ">
               <p>
@@ -233,14 +235,12 @@ export default function Accordion() {
             : "max-h-0 opacity-0 "
         }`}
       >
-        <div className="p-2 ">
-          <p className=" text-gray-300">
-            Created and launched a business showcase website with Google
-            Business optimization, including UX/UI design and interface mockups.
-            The project utilized HTML, CSS, JavaScript, and Google Maps API,
-            with deployment on the Vercel platform.
-          </p>
-        </div>
+        <p className=" text-gray-300">
+          Created and launched a business showcase website with Google Business
+          optimization, including UX/UI design and interface mockups. The
+          project utilized HTML, CSS, JavaScript, and Google Maps API, with
+          deployment on the Vercel platform.
+        </p>
       </div>
     </div>
   );

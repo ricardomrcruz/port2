@@ -23,7 +23,9 @@ function App() {
           <Suspense
             fallback={
               <div className="h-[50vh] w-full flex items-center justify-center">
-                <div className=" text-2xl">This is not a simulation.</div>
+                <div className=" text-md text-mono">
+                  This is not a simulation.
+                </div>
               </div>
             }
           >
@@ -83,6 +85,21 @@ function App() {
         <Accordion2 />
         <Skills />
         <Projects />
+        <section className="container mx-auto px-4 py-12">
+          <div className="text-center mb-12">
+            <span className="bg-white text-black px-3 py-1 rounded-md text-sm inline-block hover:opacity-80">
+              Open Source
+            </span>
+            <h2 className="mt-4 mb-2 text-3xl font-bold tracking-tighter sm:text-5xl text-gray-100">
+              I like building things
+            </h2>
+            <p className="text-gray-500 max-w-2xl mx-auto">
+              Over time, I've developed various notable projects, written
+              articles, and documented use cases—both open source and
+              private—that I'm excited to share with the community.
+            </p>
+          </div>
+        </section>
       </section>
     </div>
   );

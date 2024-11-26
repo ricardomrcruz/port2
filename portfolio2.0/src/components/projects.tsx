@@ -1,3 +1,6 @@
+import { TbWorld } from "react-icons/tb";
+import { FaGithub, FaBehanceSquare } from "react-icons/fa";
+
 export default function Projects() {
   let stack1 = [
     "Python",
@@ -45,6 +48,8 @@ export default function Projects() {
     "Google Business",
     "SEO",
     "Vercel",
+    "UX/UI",
+    "Responsive",
   ];
 
   return (
@@ -84,7 +89,7 @@ export default function Projects() {
           </a>
           <div className="p-4">
             <h5 className="text-lg font-semibold text-white truncate">
-              StreamNow Platform
+              NOW Streaming App
             </h5>
             <p className="text-gray-400 text-xs mb-2">
               December 2022 - February 2023
@@ -103,6 +108,22 @@ export default function Projects() {
                   {skill}
                 </span>
               ))}
+            </div>
+            <div className="mt-2 flex gap-1">
+              <a
+                href="https://streamnow.vercel.app//"
+                target="_blank"
+                className="bg-white text-black py-[3px] px-2 text-xs rounded-md border-transparent hover:opacity-80 inline-flex items-center"
+              >
+                <TbWorld color="black" /> Website
+              </a>
+              <a
+                href="https://github.com/ricardomrcruz/NOW-streaming-service"
+                target="_blank"
+                className="bg-white text-black py-[3px] px-2 text-xs rounded-md border-transparent hover:opacity-80 inline-flex items-center"
+              >
+                <FaGithub color="black" /> Source
+              </a>
             </div>
           </div>
         </div>
@@ -127,7 +148,7 @@ export default function Projects() {
           </a>
           <div className="p-4">
             <h5 className="text-lg font-semibold text-white truncate">
-              Mark3ts.io Analytics
+              Mark3ts.io SAAS
             </h5>
             <p className="text-gray-400 text-xs mb-2">
               February 2024 - Present
@@ -147,13 +168,29 @@ export default function Projects() {
                 </span>
               ))}
             </div>
+            <div className="mt-2 flex gap-1">
+              <a
+                href="https://mark3ts.io/"
+                target="_blank"
+                className="bg-white text-black py-[3px] px-2 text-xs rounded-md border-transparent hover:opacity-80 inline-flex items-center"
+              >
+                <TbWorld color="black" /> Website
+              </a>
+              <a
+                href="https://www.behance.net/gallery/207935375/Mark3ts-SAAS-UXUI"
+                target="_blank"
+                className="bg-white text-black py-[3px] px-2 text-xs rounded-md border-transparent hover:opacity-80 inline-flex items-center"
+              >
+                <FaBehanceSquare /> <span className="px-1">Behance</span>
+              </a>
+            </div>
           </div>
         </div>
 
         {/* CARD3 */}
         <div className="bg-black border border-gray-800 rounded-lg shadow overflow-hidden">
           <a
-            href="https://mark3ts.io/"
+            href="https://mymetal.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -165,13 +202,13 @@ export default function Projects() {
           </a>
           <div className="p-4">
             <h5 className="text-lg font-semibold text-white truncate">
-              MyMetal Corporate Site
+              MyMetal Business Page
             </h5>
             <p className="text-gray-400 text-xs mb-2">
               February 2024 - Present
             </p>
             <p className="text-xs text-gray-700 mb-3 line-clamp-4">
-              SEO-optimized corporate website featuring modern design, seamless
+              SEO-optimized business page featuring modern design, seamless
               contact integration, and enhanced performance metrics for improved
               user engagement.
             </p>
@@ -184,6 +221,15 @@ export default function Projects() {
                   {skill}
                 </span>
               ))}
+            </div>
+            <div className="mt-2 flex gap-1">
+              <a
+                href="https://mymetal.vercel.app/"
+                target="_blank"
+                className="bg-white text-black py-[3px] px-2 text-xs rounded-md border-transparent hover:opacity-80 inline-flex items-center"
+              >
+                <TbWorld color="black" /> Website
+              </a>
             </div>
           </div>
         </div>
@@ -215,8 +261,8 @@ export default function Projects() {
             </p>
             <p className="text-xs text-gray-700 mb-3 line-clamp-4">
               Full-stack carbon emissions calculator developed in an agile team
-              environment, featuring precise tracking algorithms and intuitive
-              data visualization.
+              environment, where I was responsible for the development of the
+              backoffice platform and other features.
             </p>
             <div className="flex flex-wrap gap-1">
               {stack3.map((skill, index) => (
@@ -227,6 +273,23 @@ export default function Projects() {
                   {skill}
                 </span>
               ))}
+            </div>
+
+            <div className="mt-2 flex gap-1">
+              <a
+                href="https://1123-bleu-3.wns.wilders.dev/"
+                target="_blank"
+                className="bg-white text-black py-[3px] px-2 text-xs rounded-md border-transparent hover:opacity-80 inline-flex items-center"
+              >
+                <TbWorld color="black" /> Website
+              </a>
+              <a
+                href="https://github.com/WildCodeSchool/2023-11-wns-bleu-g3"
+                target="_blank"
+                className="bg-white text-black py-[3px] px-2 text-xs rounded-md border-transparent hover:opacity-80 inline-flex items-center"
+              >
+                <FaGithub color="black" /> Source
+              </a>
             </div>
           </div>
         </div>
