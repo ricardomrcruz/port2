@@ -1,5 +1,6 @@
 import { RiExternalLinkFill } from "react-icons/ri";
-import { FaGithub, FaBehanceSquare } from "react-icons/fa";
+import { FaGithub, FaBehanceSquare, FaMediumM, FaPhp } from "react-icons/fa";
+import { FcGoogle } from "react-icons/fc";
 
 export default function timeline() {
   return (
@@ -20,15 +21,15 @@ export default function timeline() {
       {/* TIMELINE STARTS HERE */}
       <ol className="relative border-s border-gray-200 dark:border-gray-700">
         <li className="mb-10 ms-8">
-          <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-            <FaBehanceSquare color="white" />
+          <span className="absolute flex items-center justify-center w-6 h-6 bg-gray-200 ring-gray-800 rounded-full -start-3 ring-8  ">
+            <FaBehanceSquare color="blue" />
           </span>
           <a href="https://www.behance.net/gallery/207935375/Mark3ts-SAAS-UXUI">
             <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
               Mark3ts UX/UI Behance Study Case
-              <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">
+              {/* <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">
                 Latest
-              </span>
+              </span> */}
             </h3>
           </a>
           <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
@@ -50,16 +51,8 @@ export default function timeline() {
           </a>
         </li>
         <li className="mb-10 ms-8">
-          <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-            <svg
-              className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-            >
-              <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
-            </svg>
+          <span className="absolute flex items-center justify-center w-6 h-6 bg-gray-200 ring-gray-800 rounded-full -start-3 ring-8 ">
+            <FaMediumM color="black" />
           </span>
           <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
             FastAPI as a Hypermedia Driven Application w/ HTMX & Jinja2Templates
@@ -75,33 +68,30 @@ export default function timeline() {
             behind it.
           </p>
 
-          <a
-            href="https://medium.com/@strasbourgwebsolutions/fastapi-as-a-hypermedia-driven-application-w-htmx-jinja2templates-644c3bfa51d1"
-            target="_blank"
-          >
-            <div className=" mt-4 flex gap-2">
+          <div className=" mt-4 flex gap-2">
+            <a
+              href="https://medium.com/@strasbourgwebsolutions/fastapi-as-a-hypermedia-driven-application-w-htmx-jinja2templates-644c3bfa51d1"
+              target="_blank"
+            >
               <span className="bg-gray-800 border-gray-200 rounded-lg border text-gray-200  text-xs py-[3px] px-3 hover:opacity-80 inline-flex items-center">
                 <RiExternalLinkFill color="white" />
-                <span className="pl-1">External Link</span>
+                <span className="pl-1">Link to article</span>
               </span>
+            </a>
+            <a
+              href="https://github.com/ricardomrcruz/FastAPI_Jinja2_HTMX-Login_Form_Dashboard"
+              target="_blank"
+            >
               <span className="bg-gray-800 border-gray-200 rounded-lg border text-gray-200  text-xs py-[3px] px-3  hover:opacity-80 inline-flex items-center">
                 <FaGithub color="white " />
                 <span className="pl-1">Source</span>
               </span>
-            </div>
-          </a>
+            </a>
+          </div>
         </li>
         <li className="ms-8">
-          <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-            <svg
-              className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-            >
-              <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
-            </svg>
+          <span className="absolute flex items-center justify-center w-6 h-6 bg-gray-200 ring-gray-800 rounded-full -start-3 ring-8 ">
+            <FcGoogle />
           </span>
           <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
             PHP Google Search Console API Client & XML Data Parser
@@ -112,10 +102,60 @@ export default function timeline() {
           <p className="text-base font-normal text-gray-500 dark:text-gray-400">
             Developed a Google Search Console API client to address the lack of
             comprehensive documentation. Designed for seamless connectivity with
-            Google APIs, it facilitates comprehensive data exchange and features
-            an XML data parser. Dedicated mainly to Laravel, Symfony, Wordpress
-            and Prestashop developers.
+            Google APIs, it facilitates comprehensive data exchange, keyword
+            analystics and features an XML data parser. Dedicated mainly to
+            Laravel, Symfony, Wordpress and Prestashop developers.
           </p>
+          <div className="pt-4 mt-4 flex gap-2">
+            <a
+              href="https://github.com/ricardomrcruz/PHP_Google_Search_Console_API_Client"
+              target="_blank"
+            >
+              <span className="bg-gray-800 border-gray-200 rounded-lg border text-gray-200  text-xs py-[3px] px-3  hover:opacity-80 inline-flex items-center">
+                <FaGithub color="white " />
+                <span className="pl-1">Source</span>
+              </span>
+            </a>
+          </div>
+        </li>
+        <li className="mt-4 ms-8">
+          <span className="absolute flex items-center justify-center w-6 h-6 bg-gray-200 ring-gray-800 rounded-full -start-3 ring-8 ">
+            <FaPhp color="black" />
+          </span>
+          <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+            Fresh Labels - PHP Automated Food Labeling Printing App
+          </h3>
+          <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+            20 January 2023
+          </time>
+          <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+            Developed an automated food safety labeling system for restaurants,
+            featuring dual temperature tracking (freezer and ambient), custom
+            label generation, and scheduled printing workflows. Built using PHP
+            OOP APACHE with MVC architecture, MySQL, and DOMPDF for high-quality
+            label production. The system streamlines food safety compliance by
+            automating expiration dates and storage requirements.
+          </p>
+          <div className=" mt-4 flex gap-2">
+            <a
+              href="https://github.com/ricardomrcruz/freshlabels"
+              target="_blank"
+            >
+              <span className="bg-gray-800 border-gray-200 rounded-lg border text-gray-200  text-xs py-[3px] px-3  hover:opacity-80 inline-flex items-center">
+                <FaGithub color="white " />
+                <span className="pl-1">Source</span>
+              </span>
+            </a>
+            <a
+              href="https://www.behance.net/gallery/176957559/Technical-Doc-VF-FreshLabels-App"
+              target="_blank"
+            >
+              <span className="bg-gray-800 border-gray-200 rounded-lg border text-gray-200  text-xs py-[3px] px-3 hover:opacity-80 inline-flex items-center">
+                <FaBehanceSquare color="white" />
+                <span className="pl-1">Documentation VF</span>
+              </span>
+            </a>
+          </div>
         </li>
       </ol>
     </section>

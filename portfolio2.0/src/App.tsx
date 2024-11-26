@@ -5,6 +5,7 @@ import Accordion2 from "./components/accordion2";
 import Skills from "./components/skills";
 import Projects from "./components/projects";
 import Timeline from "./components/timeline";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 function App() {
   // Correct path - just the filename with forward slash
@@ -12,14 +13,57 @@ function App() {
 
   return (
     <div className="w-full flex flex-col text-white">
-      {/* <header className="h-[10vh]">
-        <nav className="flex">
-          <a href="">Home</a>
-          <a href="">Work</a>
-          <a href="">Blog</a>
-        </nav>
-      </header> */}
-      <section className=" bg-black mt-[20vh]">
+      <header className="h-auto pt-8 pb-4 px-4 w-[35%] mx-auto">
+        <div className="flex justify-between">
+          <div>
+            <h1 className="text-2xl font-bold">Ricardo Martinho</h1>
+            <h2 className="">Strasbourg, France</h2>
+          </div>
+          <div className="text-end ">
+            <div>
+              <a
+                href="mailto:strasbourgwebsolutions@gmail.com"
+                className="text-sm hover:text-gray-300 transition-colors"
+              >
+                strasbourgwebsolutions@gmail.com
+              </a>
+            </div>
+
+            <div>
+              <a
+                href="tel:0785492177"
+                className="text-sm hover:text-gray-300 transition-colors"
+              >
+                (+33) 07 85 49 21 77
+              </a>
+            </div>
+            <div className="flex gap-3 m-auto justify-end mt-2 text-gray-200">
+              <a href="https://www.linkedin.com/in/ricardomartinhocruz/">
+                <span className="text-2xl">
+                  <FaLinkedin />
+                </span>
+              </a>
+              <a href="https://github.com/ricardomrcruz" target="_blank">
+                <span className="text-2xl">
+                  <FaGithub />
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="mt-7 text-md ">
+          <p className="mb-1">
+            Looking for a developer for your website, application, or freelance
+            project? Contact me by email or linkedin.
+          </p>
+          <p className="text-gray-400 mt-5 italic">
+            Vous recherchez un développeur pour la création d'un site, d'une
+            application ou une mission freelance? Contactez-moi par mail ou
+            linkedin.
+          </p>
+        </div>
+      </header>
+      <section className=" bg-black mt-[4vh]">
         <div className="container mx-auto  ">
           <Suspense
             fallback={
