@@ -13,17 +13,17 @@ function App() {
 
   return (
     <div className="w-full flex flex-col text-white">
-      <header className="h-auto pt-8 pb-4 px-4 w-[35%] mx-auto">
-        <div className="flex justify-between">
+      <header className="h-auto pt-8 pb-4 px-4 w-[95%] sm:w-[90%] md:w-[75%] lg:w-[35%] mx-auto ">
+        <div className="flex flex-col sm:flex-row sm:justify-between gap-4 sm:gap-2">
           <div>
             <h1 className="text-2xl font-bold">Ricardo Martinho</h1>
             <h2 className="">Strasbourg, France</h2>
           </div>
-          <div className="text-end ">
+          <div className="text-left sm:text-end">
             <div>
               <a
                 href="mailto:strasbourgwebsolutions@gmail.com"
-                className="text-sm hover:text-gray-300 transition-colors"
+                className="text-sm hover:text-gray-300 transition-colors "
               >
                 strasbourgwebsolutions@gmail.com
               </a>
@@ -37,7 +37,7 @@ function App() {
                 (+33) 07 85 49 21 77
               </a>
             </div>
-            <div className="flex gap-3 m-auto justify-end mt-2 text-gray-200">
+            <div className="flex gap-3 justify-start sm:justify-end mt-2 text-gray-200">
               <a href="https://www.linkedin.com/in/ricardomartinhocruz/">
                 <span className="text-2xl">
                   <FaLinkedin />
@@ -82,24 +82,24 @@ function App() {
           </Suspense>
         </div>
       </section>
-      <section className="w-[35%] m-auto ">
-        <div className="flex w-full justify-between mt-6">
-          <div className="w-[68%] ">
-            <h1 className="text-6xl pt-3 pb-2 font-bold tracking-tighter">
+      <section className="w-[95%] sm:w-[90%] md:w-[75%] lg:w-[35%] mx-auto">
+        <div className="flex flex-col sm:flex-row w-full sm:justify-between mt-6 gap-4 sm:gap-0">
+          <div className="w-full sm:w-[68%] order-2 sm:order-1">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl pt-3 pb-2 font-bold tracking-tighter">
               Hi, I'm Ricardo ✌️
             </h1>
-            <p className="text-base leading-snug ">
+            <p className="text-base leading-snug">
               Software Web Developer & Freelancer based in Strasbourg, France. I
               build and deploy beautiful business websites and applications.
               Engineering student and passionate for open source. Have a project
               in mind? Let's connect.
             </p>
           </div>
-          <div className="w-[26%] flex justify-center items-center overflow-hidden mt-3 ">
+          <div className="w-full sm:w-[26%] flex justify-center items-center overflow-hidden order-1 sm:order-2">
             <img
               src="/avatar.jpg"
               alt="Avatar"
-              className="h-[8.5rem] w-[8.5rem] rounded-full object-cover "
+              className="h-32 w-32 sm:h-[8.5rem] sm:w-[8.5rem] rounded-full object-cover"
             />
           </div>
         </div>

@@ -31,12 +31,12 @@ export default function Accordion() {
               <img
                 src="/logo1.jpg"
                 alt="cbdeau"
-                className="h-[3.5rem] w-[3.5rem] rounded-full object-cover "
+                className="h-10 w-10 sm:h-[3.5rem] sm:w-[3.5rem] rounded-full object-cover "
               />
             </span>
             <div className="text-left px-4">
-              <p>CBD'eau SAS</p>
-              <p className="text-xs text-gray-200">
+              <p className="text-base sm:text-lg">CBD'eau SAS</p>
+              <p className="text-[11px] sm:text-xs text-gray-200">
                 Fullstack Software Developer
               </p>
             </div>
@@ -68,7 +68,7 @@ export default function Accordion() {
             </div>
           </span>
           <div>
-            <span className="text-gray-300 text-sm">
+            <span className="text-[11px] sm:text-sm text-gray-500 ">
               October 2023 - November 2024
             </span>
             <p aria-hidden="true" className="h-7" />
@@ -109,12 +109,12 @@ export default function Accordion() {
               <img
                 src="/logo3.jpg"
                 alt="cbdeau"
-                className="h-[3.5rem] w-[3.5rem] rounded-full object-cover "
+                className="h-10 w-10 sm:h-[3.5rem] sm:w-[3.5rem] rounded-full object-cover "
               />
             </span>
             <div className="text-left px-4">
-              <p>Strasbourg Web Solutions</p>
-              <p className="text-xs text-gray-300">
+              <p className="text-base sm:text-lg">Strasbourg Web Solutions</p>
+              <p className="text-[11px] sm:text-xs text-gray-200">
                 Fullstack Web Developer Freelancer
               </p>
             </div>
@@ -146,7 +146,9 @@ export default function Accordion() {
             </div>
           </span>
           <div>
-            <span className="text-gray-300 text-sm">June 2021 - Today</span>
+            <span className="text-[11px] sm:text-sm text-gray-500 justify-end">
+              June 2021 - Today
+            </span>
             <p aria-hidden="true" className="h-7" />
           </div>
         </button>
@@ -184,12 +186,14 @@ export default function Accordion() {
               <img
                 src="/logo2.jpg"
                 alt="cbdeau"
-                className="h-[3.5rem] w-[3.5rem] rounded-full object-cover "
+                className="h-10 w-10 sm:h-[3.5rem] sm:w-[3.5rem] rounded-full object-cover "
               />
             </span>
             <div className="text-left px-4">
-              <p>MyMetal®</p>
-              <p className="text-xs text-gray-300">Intern Web Developer</p>
+              <p className="text-base sm:text-lg">MyMetal®</p>
+              <p className="text-[11px] sm:text-xs text-gray-200">
+                Intern Web Developer
+              </p>
             </div>
             <div className="text-left ">
               <p>
@@ -219,7 +223,7 @@ export default function Accordion() {
             </div>
           </span>
           <div>
-            <span className="text-gray-300 text-sm">
+            <span className="text-[11px] sm:text-sm text-gray-500 justify-end">
               January 2023 - Mars 2023
             </span>
             <p aria-hidden="true" className="h-7" />
