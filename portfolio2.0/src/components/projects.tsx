@@ -63,7 +63,7 @@ export default function Projects() {
         </h2>
         <p className="text-gray-500 max-w-2xl mx-auto">
           From responsive business websites to complex web applications, here's
-          a showcase of my most impactful projects.
+          a showcase of some of my projects.
         </p>
       </div>
 

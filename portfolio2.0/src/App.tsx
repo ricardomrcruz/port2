@@ -4,6 +4,7 @@ import Accordion from "./components/accordion1";
 import Accordion2 from "./components/accordion2";
 import Skills from "./components/skills";
 import Projects from "./components/projects";
+import Timeline from "./components/timeline";
 
 function App() {
   // Correct path - just the filename with forward slash
@@ -75,31 +76,18 @@ function App() {
             <a href="" className="underline text-gray-100">
               open-source community
             </a>
-            . He specializes in full-stack development with TypeScript, Node.js,
-            React, Python FastAPI, and PHP Symfony. Ricardo is passionate about
-            programming both complex and efficient backend systems, while also
-            crafting artsy and creative UX/UI design-driven websites.
+            . He specializes in full-stack development with TypeScript
+            (Javascript), Node.js, React, Python FastAPI, and PHP Symfony.
+            Ricardo is passionate about programming both complex and efficient
+            backend systems, while also crafting artsy and creative UX/UI
+            design-driven websites.
           </p>
         </div>
         <Accordion />
         <Accordion2 />
         <Skills />
         <Projects />
-        <section className="container mx-auto px-4 py-12">
-          <div className="text-center mb-12">
-            <span className="bg-white text-black px-3 py-1 rounded-md text-sm inline-block hover:opacity-80">
-              Open Source
-            </span>
-            <h2 className="mt-4 mb-2 text-3xl font-bold tracking-tighter sm:text-5xl text-gray-100">
-              I like building things
-            </h2>
-            <p className="text-gray-500 max-w-2xl mx-auto">
-              Over time, I've developed various notable projects, written
-              articles, and documented use cases—both open source and
-              private—that I'm excited to share with the community.
-            </p>
-          </div>
-        </section>
+        <Timeline />
       </section>
     </div>
   );

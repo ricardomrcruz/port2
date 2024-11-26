@@ -1,5 +1,6 @@
 export default function Skills() {
   let skills = [
+    "Javascript",
     "React",
     "Vite",
     "Nodejs",
