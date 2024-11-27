@@ -76,7 +76,7 @@ export default function Projects() {
             rel="noopener noreferrer"
           >
             <video
-              className="w-full aspect-video object-cover border-b border-gray-600"
+              className="w-full aspect-video object-cover border-b border-gray-900"
               poster=""
               autoPlay
               loop

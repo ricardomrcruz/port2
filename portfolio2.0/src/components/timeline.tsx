@@ -38,7 +38,8 @@ export default function timeline() {
           <p className="pb-4 text-base font-normal text-gray-500 dark:text-gray-400">
             Developed a comprehensive SaaS platform using Python FastAPI and
             created a detailed Behance frontend case study showcasing the UX/UI
-            design decisions and user workflow usign Html, Css and Htmx.
+            design decisions and user workflow built in HTML, TailwindCSS and
+            HTMX over Jinja2 templates.
           </p>
           <a
             href="https://www.behance.net/gallery/207935375/Mark3ts-SAAS-UXUI"
@@ -89,7 +90,7 @@ export default function timeline() {
             </a>
           </div>
         </li>
-        <li className="ms-8">
+        <li className="mb-10 ms-8">
           <span className="absolute flex items-center justify-center w-6 h-6 bg-gray-200 ring-gray-800 rounded-full -start-3 ring-8 ">
             <FcGoogle />
           </span>
@@ -106,7 +107,7 @@ export default function timeline() {
             analystics and features an XML data parser. Dedicated mainly to
             Laravel, Symfony, Wordpress and Prestashop developers.
           </p>
-          <div className="pt-4 mt-4 flex gap-2">
+          <div className="pt-4  flex gap-2">
             <a
               href="https://github.com/ricardomrcruz/PHP_Google_Search_Console_API_Client"
               target="_blank"
@@ -118,7 +119,7 @@ export default function timeline() {
             </a>
           </div>
         </li>
-        <li className="mt-4 ms-8">
+        <li className="mb-10 ms-8">
           <span className="absolute flex items-center justify-center w-6 h-6 bg-gray-200 ring-gray-800 rounded-full -start-3 ring-8 ">
             <FaPhp color="black" />
           </span>

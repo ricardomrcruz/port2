@@ -108,23 +108,19 @@ function App() {
           <p className="text-gray-400  text-justify leading-tight prose max-w-full text-pretty font-sans text-sm ">
             Ricardo Martinho is a full-stack web developer who has been involved
             in enterprise projects and{" "}
-            <a href="" className="underline text-gray-100">
-              freelancing
-            </a>{" "}
-            ventures for the last couple of years. Currently pursuing a{" "}
-            <a href="" className="underline text-gray-100">
+            <a className="underline text-gray-100">freelancing</a> ventures for
+            the last couple of years. Currently pursuing a{" "}
+            <a className="underline text-gray-100">
               software engineering degree
             </a>
             , he has built custom ERP/BI solutions in-company, deployed SAAS
             apps and solutions, and contributed actively to the{" "}
-            <a href="" className="underline text-gray-100">
-              open-source community
-            </a>
-            . He specializes in full-stack development with TypeScript
-            (Javascript), Node.js, React, Python FastAPI, and PHP Symfony.
-            Ricardo is passionate about programming both complex and efficient
-            backend systems, while also crafting artsy and creative UX/UI
-            design-driven websites.
+            <a className="underline text-gray-100">open-source community</a>. He
+            specializes in full-stack development with TypeScript (Javascript),
+            Node.js, React, Python FastAPI, and PHP Symfony. Ricardo is
+            passionate about programming both complex and efficient backend
+            systems, while also crafting artsy and creative UX/UI design-driven
+            websites.
           </p>
         </div>
         <Accordion />
