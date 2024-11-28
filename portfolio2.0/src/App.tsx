@@ -149,6 +149,31 @@ function App() {
         <FadeInSection delay={2.6}>
           <Timeline />
         </FadeInSection>
+        <FadeInSection delay={2.8}>
+          <section className="container mx-auto px-4 py-12">
+            <div className="text-center mb-12">
+              <span className="bg-white text-black px-3 py-1 rounded-md text-sm inline-block hover:opacity-80">
+                Contact
+              </span>
+              <h2 className="mt-4 mb-2 text-3xl font-bold tracking-tighter sm:text-5xl text-gray-100">
+                Get in Touch
+              </h2>
+              <p className="text-gray-500 max-w-xl mx-auto">
+                Looking for a developer or envisioning a project? Let's work
+                together! <br />
+                <a
+                  href="https://www.linkedin.com/in/ricardomartinhocruz/"
+                  target="_blank"
+                  className="text-blue-600 "
+                >
+                  Send me a direct message on LinkedIn
+                </a>{" "}
+                outlining your project, and I'll get back to you within 24 hours
+                to discuss how we can collaborate.
+              </p>
+            </div>
+          </section>
+        </FadeInSection>
       </section>
     </div>
   );
