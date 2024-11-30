@@ -86,13 +86,39 @@ export default function Accordion() {
         }`}
       >
         <p className=" text-gray-300 ">
-          Led the development of enterprise ERP/CRM systems from scratch while
-          building robust API integrations and XML raw data treatment in OOP PHP
-          & SQL frameworks. I engineered data analysis solutions incorporating
-          Google Maps and AI technologies for franchise performance metrics, and
-          collaborated with designers and marketeers on the launch of digital
-          brands while also optimizing UX/UI and features associated with the
-          company's official e-commerce platform.
+          <ul className="space-y-4">
+            <li>
+              Led the development of an ERP/BI solution (25,000+ lines of code)
+              managing a network of 140+ franchised stores across France and
+              overseas territories: management, accounting, order flows (€4+
+              Million annual revenue) and Europe's largest hemp-based product
+              catalog (1500+ references). Project management in a team of 3
+              developers.
+            </li>
+
+            <li>
+              Designed and deployed a secure RESTful middleware API ensuring
+              interconnection between the PrestaShop MySQL database (150+
+              tables, queries processing over 1 Million rows) and external
+              microservices, optimizing data exchanges via PHP/PDO and XML/JSON
+              flows.
+            </li>
+
+            <li>
+              Integration of Google APIs (Search Console, Maps) and Artificial
+              Intelligence (OpenAI, Anthropic) in product performance
+              optimization and predictive analysis (revenue, margin, costs, CTR)
+              and AI-automated geographic report generation to target high
+              commercial potential areas.
+            </li>
+
+            <li>
+              Constant communication with management and IT teams, marketing,
+              design, and SEO departments for traffic optimization and
+              development of new brands and e-commerce stores, contributing to
+              commercial network expansion.
+            </li>
+          </ul>
         </p>
       </div>
       {/* WORK NUMBER 2 */}
@@ -163,13 +189,25 @@ export default function Accordion() {
         }`}
       >
         <p className=" text-gray-300">
-          Founder of Strasbourg Web Solutions (POPCVLTVRA) - A freelance IT
-          services business operating as a sole proprietorship under SIREN
-          number 902 473 867, specializing in e-commerce buying and selling of
-          merchandise and digital products. The company offers IT development
-          services using WordPress, PrestaShop, React, Nodejs, and FastAPI,
-          creating showcase websites, e-commerce platforms, and applications. We
-          provide customized solutions tailored to clients needs and budgets.
+          <ul className="space-y-4">
+            <li>
+              Self-employed: IT services and consulting - freelance status.
+            </li>
+
+            <li>
+              Delivered custom e-commerce solutions and showcase websites
+              (WordPress, PrestaShop, Custom Applications). Provided technical
+              consulting and expertise to clients in their digital
+              transformation.
+            </li>
+
+            <li>
+              Co-founder of Mark3ts.io - e-commerce web-crawling SaaS service
+              (Python, FastAPI) enabling large-scale automated product data
+              extraction and monitoring for retailers (Amazon, eBay, NVIDIA,
+              Apple) and real-time integration - in development.
+            </li>
+          </ul>
         </p>
       </div>
       {/* WORK NUMBER 3 */}
@@ -240,10 +278,18 @@ export default function Accordion() {
         }`}
       >
         <p className=" text-gray-300">
-          Created and launched a business showcase website with Google Business
-          optimization, including UX/UI design and interface mockups. The
-          project utilized HTML, CSS, JavaScript, and Google Maps API, with
-          deployment on the Vercel platform.
+          <ul className="space-y-4">
+            <li>
+              Design and deployment of a company showcase website, ranked Top 3
+              on Google Search for targeted keywords.
+            </li>
+
+            <li>
+              Full project ownership: UX/UI design, Figma wireframing,
+              React/JavaScript frontend development, and Google Business
+              optimization.
+            </li>
+          </ul>
         </p>
       </div>
     </div>
