@@ -94,7 +94,7 @@ function App() {
           <div className="flex flex-col sm:flex-row w-full sm:justify-between mt-6 gap-4 sm:gap-0">
             <div className="w-full sm:w-[68%] order-2 sm:order-1">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl pt-3 pb-2 font-bold tracking-tighter">
-                Hi, I'm Ricardo ✌️
+                Hi, I'm Ricardo 👋
               </h1>
               <p className="text-base leading-snug">
                 Software Web Developer & Freelancer based in Strasbourg, France.
