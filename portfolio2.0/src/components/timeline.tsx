@@ -25,7 +25,7 @@ export default function timeline() {
             <FaBehanceSquare color="blue" />
           </span>
           <a href="https://www.behance.net/gallery/207935375/Mark3ts-SAAS-UXUI">
-            <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+            <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white hover:text-gray-400 hover:underline underline-offset-4">
               Mark3ts UX/UI Behance Study Case
               {/* <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">
                 Latest
@@ -55,9 +55,15 @@ export default function timeline() {
           <span className="absolute flex items-center justify-center w-6 h-6 bg-gray-200 ring-gray-800 rounded-full -start-3 ring-8 ">
             <FaMediumM color="black" />
           </span>
-          <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-            FastAPI as a Hypermedia Driven Application w/ HTMX & Jinja2Templates
-          </h3>
+          <a
+            href="https://medium.com/@strasbourgwebsolutions/fastapi-as-a-hypermedia-driven-application-w-htmx-jinja2templates-644c3bfa51d1"
+            target="_blank"
+          >
+            <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white hover:text-gray-400 hover:underline underline-offset-4">
+              FastAPI as a Hypermedia Driven Application w/ HTMX &
+              Jinja2Templates
+            </h3>
+          </a>
           <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
             Aug 16, 2024
           </time>
@@ -94,9 +100,14 @@ export default function timeline() {
           <span className="absolute flex items-center justify-center w-6 h-6 bg-gray-200 ring-gray-800 rounded-full -start-3 ring-8 ">
             <FcGoogle />
           </span>
-          <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-            PHP Google Search Console API Client & XML Data Parser
-          </h3>
+          <a
+            href="https://github.com/ricardomrcruz/PHP_Google_Search_Console_API_Client"
+            target="_blank"
+          >
+            <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white hover:text-gray-400 hover:underline underline-offset-4">
+              PHP Google Search Console API Client & XML Parser
+            </h3>
+          </a>
           <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
             April 2024
           </time>
@@ -123,9 +134,14 @@ export default function timeline() {
           <span className="absolute flex items-center justify-center w-6 h-6 bg-gray-200 ring-gray-800 rounded-full -start-3 ring-8 ">
             <FaPhp color="black" />
           </span>
-          <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-            Fresh Labels - PHP Automated Food Labeling Printing App
-          </h3>
+          <a
+            href="https://github.com/ricardomrcruz/freshlabels"
+            target="_blank"
+          >
+            <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white hover:text-gray-400 hover:underline underline-offset-4">
+              Fresh Labels - PHP Automated Food Labeling Printing App
+            </h3>
+          </a>
           <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
             20 January 2023
           </time>

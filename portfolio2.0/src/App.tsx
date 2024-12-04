@@ -93,7 +93,7 @@ function App() {
         <FadeInSection delay={1.6}>
           <div className="flex flex-col sm:flex-row w-full sm:justify-between mt-6 gap-4 sm:gap-0">
             <div className="w-full sm:w-[68%] order-2 sm:order-1">
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl pt-3 pb-2 font-bold tracking-tighter">
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl pt-3 pb-2 font-bold tracking-tighter">
                 Hi, I'm Ricardo 👋
               </h1>
               <p className="text-base leading-snug">
