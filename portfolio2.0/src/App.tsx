@@ -10,7 +10,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 function App() {
   // Correct path - just the filename with forward slash
-  const MODEL_PATH = "/8_bit_pc.glb";
+  const MODEL_PATH = "/relativity_by_mc_escher.glb";
 
   return (
     <div className="w-full flex flex-col text-white">
@@ -82,7 +82,7 @@ function App() {
             >
               <ModelViewer
                 modelPath={MODEL_PATH}
-                scale={8.2} // Adjust this value if needed
+                scale={1} // Adjust this value if needed
                 autoRotate={true}
               />
             </Suspense>
