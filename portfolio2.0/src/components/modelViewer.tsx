@@ -35,11 +35,8 @@ function Model({ modelPath, scale = 1, autoRotate = true }: ModelProps) {
       group.current.rotation.y += 0.01;
       group.current.rotation.x += 0.002;
 
-      // Update time
       time.current += 0.001;
 
-      // Calculate scale using sine wave
-      // This will make the scale oscillate between scale * 0.8 and scale * 1.2
       const scaleOffset = Math.sin(time.current) * 0.2;
       const newScale = scale * (1.4 + scaleOffset);
 
@@ -69,8 +66,7 @@ export default function ModelViewer({
     <div className="h-[50vh] w-[95%] sm:w-[90%] md:w-[75%] lg:w-[43%] mx-auto relative bg-black pb-[-20px] cursor-grabbing">
       <Canvas>
         <color attach="background" args={["#000000"]} />
-        // Allow frame rate to drop for better performance Limit pixel ratio for
-        better performance
+
         {/* Camera */}
         <PerspectiveCamera makeDefault position={[0, 2, 6]} />
         {/* Lights */}
