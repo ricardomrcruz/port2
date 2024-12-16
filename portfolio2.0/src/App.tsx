@@ -82,7 +82,7 @@ function App() {
             >
               <ModelViewer
                 modelPath={MODEL_PATH}
-                scale={8.2} // Adjust this value if needed
+                scale={8.2}
                 autoRotate={true}
               />
             </Suspense>

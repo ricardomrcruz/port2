@@ -53,5 +53,4 @@ export default function ModelViewer({
   );
 }
 
-// Preload with correct path
 useGLTF.preload("/8_bit_pc.glb");
