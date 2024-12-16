@@ -235,11 +235,12 @@ export default function Accordion() {
               <p>
                 <svg
                   data-accordion-icon
-                  className={`w-3 h-3  shrink-0 transition-all duration-300 ease-out opacity-0 group-hover:opacity-100${
-                    openAccordion["accordion-open-body-2"]
-                      ? "rotate-180 "
-                      : "rotate-90 "
-                  }`}
+                  className={`w-3 h-3 shrink-0 transition-all duration-300 ease-out opacity-0 group-hover:opacity-100 
+                    ${
+                      openAccordion["accordion-open-body-2"]
+                        ? "rotate-180 "
+                        : "rotate-90 "
+                    }`}
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
