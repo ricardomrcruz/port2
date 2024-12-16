@@ -181,7 +181,7 @@ export default function Accordion() {
       </div>
 
       <div
-        id="accordion-open-body-1 "
+        id="accordion-open-body-4"
         aria-labelledby="accordion-open-heading-4"
         className={` transition-all ease-out overflow-hidden py-3 px-2 text-sm ${
           openAccordion["accordion-open-body-4"]
@@ -209,12 +209,12 @@ export default function Accordion() {
         </p>
       </div>
       {/* WORK NUMBER 2 */}
-      <div id="accordion-open-heading-3">
+      <div id="accordion-open-heading-2">
         <button
           type="button"
           className="group flex items-center justify-between w-full  font-medium rtl:text-right gap-3"
           aria-expanded={openAccordion["accordion-open-body-2"]}
-          aria-controls="accordion-open-body-3"
+          aria-controls="accordion-open-body-2"
           onClick={() => toggleAccordion("accordion-open-body-2")}
         >
           <span className="flex items-center">
@@ -348,7 +348,7 @@ export default function Accordion() {
         </button>
       </div>
       <div
-        id="accordion-open-body-3 "
+        id="accordion-open-body-3"
         aria-labelledby="accordion-open-heading-3"
         className={` transition-all ease-out overflow-hidden py-3 px-2 text-sm  ${
           openAccordion["accordion-open-body-3"]
