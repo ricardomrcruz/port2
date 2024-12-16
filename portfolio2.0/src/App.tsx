@@ -10,12 +10,12 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 function App() {
   // Correct path - just the filename with forward slash
-  const MODEL_PATH = "/relativity_by_mc_escher.glb";
+  const MODEL_PATH = "/8_bit_pc.glb";
 
   return (
     <div className="w-full flex flex-col text-white">
       <header className="h-auto pt-8 pb-4 px-4 w-[95%] sm:w-[90%] md:w-[75%] lg:w-[35%] mx-auto ">
-        <FadeInSection delay={1.5}>
+        <FadeInSection delay={1}>
           <div className="flex flex-col sm:flex-row sm:justify-between gap-4 sm:gap-2">
             <div>
               <h1 className="text-2xl font-bold">Ricardo Martinho</h1>
@@ -54,7 +54,7 @@ function App() {
             </div>
           </div>
         </FadeInSection>
-        <FadeInSection delay={1.6}>
+        <FadeInSection delay={1.2}>
           <div className="mt-7 text-md">
             <p className="mb-1">
               Looking for a developer for your website, application, or
@@ -68,19 +68,21 @@ function App() {
           </div>
         </FadeInSection>
       </header>
-      <FadeInSection delay={1.8}>
+      <FadeInSection delay={1.4}>
         <section className=" bg-black mt-[4vh]">
           <div className="container mx-auto  ">
             <Suspense
               fallback={
                 <div className="h-[50vh] w-full flex items-center justify-center">
-                  <div className=" text-md text-mono">Loading model...</div>
+                  <div className=" text-md text-mono">
+                    This is not a simulation.
+                  </div>
                 </div>
               }
             >
               <ModelViewer
                 modelPath={MODEL_PATH}
-                scale={1} // Adjust this value if needed
+                scale={8.2} // Adjust this value if needed
                 autoRotate={true}
               />
             </Suspense>
@@ -88,7 +90,7 @@ function App() {
         </section>
       </FadeInSection>
       <section className="w-[95%] sm:w-[90%] md:w-[75%] lg:w-[35%] mx-auto">
-        <FadeInSection delay={2}>
+        <FadeInSection delay={1.6}>
           <div className="flex flex-col sm:flex-row w-full sm:justify-between mt-6 gap-4 sm:gap-0">
             <div className="w-full sm:w-[68%] order-2 sm:order-1">
               <h1 className="text-3xl sm:text-4xl lg:text-5xl pt-3 pb-2 font-bold tracking-tighter">
@@ -110,7 +112,7 @@ function App() {
             </div>
           </div>
         </FadeInSection>
-        <FadeInSection delay={2}>
+        <FadeInSection delay={1.8}>
           <div className="my-10">
             <h2 className="text-xl font-bold mb-2">About</h2>
             <p className="text-gray-400  text-justify leading-tight prose max-w-full text-pretty font-sans text-sm ">
@@ -132,7 +134,7 @@ function App() {
             </p>
           </div>
         </FadeInSection>
-        <FadeInSection delay={2}>
+        <FadeInSection delay={1.8}>
           <Accordion />
         </FadeInSection>
         <FadeInSection delay={2}>
