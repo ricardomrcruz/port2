@@ -26,6 +26,40 @@ export default function timeline() {
           </span>
           <a href="https://www.behance.net/gallery/207935375/Mark3ts-SAAS-UXUI">
             <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white hover:text-gray-400 hover:underline underline-offset-4">
+              VF Extensive Technical Documentation & Research - GreenFoot App &
+              Mark3ts.io SaaS
+              {/* <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">
+                Latest
+              </span> */}
+            </h3>
+          </a>
+          <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+            Dec 18, 2024
+          </time>
+          <p className="pb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+            Wrote technical documentation and research paper in French detailing
+            the build process of two full-stack apps. GreenFoot, a CO₂ tracker
+            using Node.js and Next.js, and Mark3ts.io, a retail data platform
+            built with Python FastAPI and HTMX that serves businesses with
+            real-time electronics market data. Documentation covers everything
+            from conception to deployment across 75 pages.
+          </p>
+          <a
+            href="https://www.behance.net/gallery/215079523/Dossier-Projet-GreenFoot-Application-Mark3tsio-VF"
+            target="_blank"
+          >
+            <span className="bg-gray-800 border-gray-200 rounded-lg border text-gray-200  text-xs py-[3px] px-3 hover:opacity-80 inline-flex items-center">
+              <RiExternalLinkFill color="white" />
+              <span className="pl-1">Documentation</span>
+            </span>
+          </a>
+        </li>
+        <li className="mb-10 ms-8">
+          <span className="absolute flex items-center justify-center w-6 h-6 bg-gray-200 ring-gray-800 rounded-full -start-3 ring-8  ">
+            <FaBehanceSquare color="blue" />
+          </span>
+          <a href="https://www.behance.net/gallery/207935375/Mark3ts-SAAS-UXUI">
+            <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white hover:text-gray-400 hover:underline underline-offset-4">
               Mark3ts UX/UI Behance Study Case
               {/* <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">
                 Latest
