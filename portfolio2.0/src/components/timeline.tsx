@@ -24,13 +24,16 @@ export default function timeline() {
           <span className="absolute flex items-center justify-center w-6 h-6 bg-gray-200 ring-gray-800 rounded-full -start-3 ring-8  ">
             <FaBehanceSquare color="blue" />
           </span>
-          <a href="https://www.behance.net/gallery/207935375/Mark3ts-SAAS-UXUI">
+          <a
+            href="https://www.behance.net/gallery/215079523/Dossier-Projet-GreenFoot-Application-Mark3tsio-VF"
+            target="_blank"
+          >
             <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white hover:text-gray-400 hover:underline underline-offset-4">
               VF Extensive Technical Documentation & Research <br />
               Nodejs CO₂ Tracker Application & Python FastAPI Htmx SaaS
-              {/* <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">
+              <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">
                 Latest
-              </span> */}
+              </span>
             </h3>
           </a>
           <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
@@ -58,12 +61,12 @@ export default function timeline() {
           <span className="absolute flex items-center justify-center w-6 h-6 bg-gray-200 ring-gray-800 rounded-full -start-3 ring-8  ">
             <FaBehanceSquare color="blue" />
           </span>
-          <a href="https://www.behance.net/gallery/207935375/Mark3ts-SAAS-UXUI">
+          <a
+            href="https://www.behance.net/gallery/207935375/Mark3ts-SAAS-UXUI"
+            target="_blank"
+          >
             <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white hover:text-gray-400 hover:underline underline-offset-4">
               Mark3ts UX/UI Behance Study Case
-              {/* <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">
-                Latest
-              </span> */}
             </h3>
           </a>
           <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
