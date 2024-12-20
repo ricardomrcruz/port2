@@ -27,7 +27,7 @@ export default function timeline() {
           <a href="https://www.behance.net/gallery/207935375/Mark3ts-SAAS-UXUI">
             <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white hover:text-gray-400 hover:underline underline-offset-4">
               VF Extensive Technical Documentation & Research <br />
-              Nodejs GreenFoot App & Python FastAPI Mark3ts.io SaaS
+              Nodejs CO₂ Tracker Application & Python FastAPI Htmx SaaS
               {/* <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">
                 Latest
               </span> */}
