@@ -30,10 +30,10 @@ export default function timeline() {
           >
             <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white hover:text-gray-400 hover:underline underline-offset-4">
               VF Extensive Technical Documentation & Research <br />
-              Nodejs CO₂ Tracker Application & Python FastAPI Htmx SaaS
-              <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">
+              Nodejs CO₂ Tracker App & Python FastAPI Htmx SaaS
+              {/* <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">
                 Latest
-              </span>
+              </span> */}
             </h3>
           </a>
           <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
