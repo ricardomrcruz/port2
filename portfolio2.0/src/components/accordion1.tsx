@@ -5,6 +5,7 @@ export default function Accordion() {
     "accordion-open-body-1": false,
     "accordion-open-body-2": false,
     "accordion-open-body-3": false,
+    "accordion-open-body-4": false,
   });
 
   const toggleAccordion = (sectionId: any) => {
