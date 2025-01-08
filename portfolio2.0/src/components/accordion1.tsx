@@ -32,7 +32,7 @@ export default function Accordion() {
               <img
                 src="/logo1.jpg"
                 alt="cbdeau"
-                className="h-10 w-10 sm:h-[3.5rem] sm:w-[3.5rem] rounded-full object-cover "
+                className="h-10 w-10 sm:h-[3.5rem] sm:w-[3.5rem] rounded-full object-cover"
               />
             </span>
             <div className="text-left px-4">
@@ -70,7 +70,7 @@ export default function Accordion() {
           </span>
           <div>
             <span className="text-[11px] sm:text-sm text-gray-500 ">
-              October 2023 - November 2024
+              Oct 2023 - Nov 2024
             </span>
             <p aria-hidden="true" className="h-7" />
           </div>
@@ -136,7 +136,7 @@ export default function Accordion() {
               <img
                 src="/logo7.jpg"
                 alt="cbdeau"
-                className="h-10 w-10 sm:h-[3.5rem] sm:w-[3.5rem] rounded-full object-cover "
+                className="h-10 w-10 sm:h-[3.5rem] sm:w-[3.5rem] rounded-full object-cover"
               />
             </span>
             <div className="text-left px-4">
@@ -174,7 +174,7 @@ export default function Accordion() {
           </span>
           <div>
             <span className="text-[11px] sm:text-sm text-gray-500 ">
-              August 2023 - October 2023
+              Aug 2023 - Oct 2023
             </span>
             <p aria-hidden="true" className="h-7" />
           </div>
@@ -223,7 +223,7 @@ export default function Accordion() {
               <img
                 src="/logo2.jpg"
                 alt="cbdeau"
-                className="h-10 w-10 sm:h-[3.5rem] sm:w-[3.5rem] rounded-full object-cover "
+                className="h-10 w-10 sm:h-[3.5rem] sm:w-[3.5rem] rounded-full object-cover"
               />
             </span>
             <div className="text-left px-4">
@@ -261,7 +261,7 @@ export default function Accordion() {
           </span>
           <div>
             <span className="text-[11px] sm:text-sm text-gray-500 justify-end">
-              December 2023 - Mars 2023
+              Dec 2022 - Mars 2023
             </span>
             <p aria-hidden="true" className="h-7" />
           </div>
