@@ -69,7 +69,7 @@ export default function Accordion() {
             </div>
           </span>
           <div>
-            <span className="text-[11px] sm:text-sm text-gray-500 ">
+            <span className="text-[11px] sm:text-sm text-gray-500 text-right">
               Oct 2023 - Nov 2024
             </span>
             <p aria-hidden="true" className="h-7" />
@@ -173,7 +173,7 @@ export default function Accordion() {
             </div>
           </span>
           <div>
-            <span className="text-[11px] sm:text-sm text-gray-500 ">
+            <span className="text-[11px] sm:text-sm text-gray-500 text-right">
               Aug 2023 - Oct 2023
             </span>
             <p aria-hidden="true" className="h-7" />
@@ -260,7 +260,7 @@ export default function Accordion() {
             </div>
           </span>
           <div>
-            <span className="text-[11px] sm:text-sm text-gray-500 justify-end">
+            <span className="text-[11px] sm:text-sm text-gray-500 text-right">
               Dec 2022 - Mars 2023
             </span>
             <p aria-hidden="true" className="h-7" />
@@ -342,7 +342,7 @@ export default function Accordion() {
             </div>
           </span>
           <div>
-            <span className="text-[11px] sm:text-sm text-gray-500 justify-end">
+            <span className="text-[11px] sm:text-sm text-gray-500 text-right">
               June 2021 - Today
             </span>
             <p aria-hidden="true" className="h-7" />

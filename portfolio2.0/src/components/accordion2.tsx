@@ -39,8 +39,8 @@ export default function Accordion2() {
             </div>
           </span>
           <div>
-            <span className="text-[11px] sm:text-sm text-gray-500">
-              November 2024 - Today (2026)
+            <span className="text-[11px] sm:text-sm text-gray-500 text-right">
+              Sept 2024 - Today (2026)
             </span>
             <p aria-hidden="true" className="h-7" />
           </div>
@@ -84,8 +84,8 @@ export default function Accordion2() {
             </div>
           </span>
           <div>
-            <span className="text-[11px] sm:text-sm text-gray-500">
-              October 2023 - November 2024
+            <span className="text-[11px] sm:text-sm text-gray-500 text-right">
+              Sept 2024
             </span>
             <p aria-hidden="true" className="h-7" />
           </div>
@@ -129,8 +129,8 @@ export default function Accordion2() {
             </div>
           </span>
           <div>
-            <span className="text-[11px] sm:text-sm text-gray-500">
-              January 2023 - Mars 2023
+            <span className="text-[11px] sm:text-sm text-gray-500 text-right">
+              Dec 2022
             </span>
             <p aria-hidden="true" className="h-7" />
           </div>
