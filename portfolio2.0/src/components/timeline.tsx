@@ -1,6 +1,13 @@
 import { RiExternalLinkFill } from "react-icons/ri";
-import { FaGithub, FaBehanceSquare, FaMediumM, FaPhp } from "react-icons/fa";
+import {
+  FaGithub,
+  FaBehanceSquare,
+  FaMediumM,
+  FaPhp,
+  FaReact,
+} from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
+import { TbWorld } from "react-icons/tb";
 
 export default function timeline() {
   return (
@@ -20,6 +27,36 @@ export default function timeline() {
       </div>
       {/* TIMELINE STARTS HERE */}
       <ol className="relative border-s border-gray-200 dark:border-gray-700">
+        <li className="mb-10 ms-8">
+          <span className="absolute flex items-center justify-center w-6 h-6 bg-gray-200 ring-gray-800 rounded-full -start-3 ring-8  ">
+            <FaReact color="#149ECA" />
+          </span>
+          <a href="https://mars-france.vercel.app/" target="_blank">
+            <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white hover:text-gray-400 hover:underline underline-offset-4">
+              Mars Inc. France Official Website Frontend Redesign <br />
+              Vite React Proof of Concept
+              {/* <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">
+                Latest
+              </span> */}
+            </h3>
+          </a>
+          <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+            Jan 03, 2025
+          </time>
+          <p className="pb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+            Leading a comprehensive UX/UI redesign initiative for Mars France's
+            official website, focusing on modern aesthetics and improved user
+            experience. Developing a proof of concept to evaluate the
+            feasibility of migrating from a Drupal theme to a modern React-based
+            architecture using Vite. Status: In Development.
+          </p>
+          <a href="https://mars-france.vercel.app/" target="_blank">
+            <span className="bg-gray-800 border-gray-200 rounded-lg border text-gray-200  text-xs py-[3px] px-3 hover:opacity-80 inline-flex items-center">
+              <TbWorld color="white" />
+              <span className="pl-1">Website</span>
+            </span>
+          </a>
+        </li>
         <li className="mb-10 ms-8">
           <span className="absolute flex items-center justify-center w-6 h-6 bg-gray-200 ring-gray-800 rounded-full -start-3 ring-8  ">
             <FaBehanceSquare color="blue" />
