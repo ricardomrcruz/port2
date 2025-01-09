@@ -15,7 +15,12 @@ export default function Accordion2() {
             </span>
             <div className="text-left px-4">
               <div className="flex">
-                <p className="text-base sm:text-lg">CNAM Strasbourg</p>
+                <a
+                  href="https://www.cnam.fr/portail/conservatoire-national-des-arts-et-metiers-accueil-821166.kjsp"
+                  target="_blank"
+                >
+                  <p className="text-base sm:text-lg">CNAM Strasbourg</p>
+                </a>
                 <svg
                   data-accordion-icon
                   className="w-2 h-2 m-2 rotate-90 shrink-0 transition-all duration-300 ease-out  opacity-5 group-hover:opacity-80 "
