@@ -54,7 +54,7 @@ function App() {
             </div>
           </div>
         </FadeInSection>
-        <FadeInSection delay={1.2}>
+        {/* <FadeInSection delay={1.2}>
           <div className="mt-7 text-md">
             <p className="mb-1">
               Looking for a developer for your website, application, or
@@ -66,9 +66,9 @@ function App() {
               linkedin.
             </p>
           </div>
-        </FadeInSection>
+        </FadeInSection> */}
       </header>
-      <FadeInSection delay={1.4}>
+      <FadeInSection delay={1.2}>
         <section className=" bg-black mt-[4vh]">
           <div className="container mx-auto  ">
             <Suspense
@@ -90,17 +90,17 @@ function App() {
         </section>
       </FadeInSection>
       <section className="w-[95%] sm:w-[90%] md:w-[75%] lg:w-[35%] mx-auto">
-        <FadeInSection delay={1.6}>
+        <FadeInSection delay={1.4}>
           <div className="flex flex-col sm:flex-row w-full sm:justify-between mt-6 gap-4 sm:gap-0">
             <div className="w-full sm:w-[68%] order-2 sm:order-1">
               <h1 className="text-3xl sm:text-4xl lg:text-5xl pt-3 pb-2 font-bold tracking-tighter">
                 Hi, I'm Ricardo 👋
               </h1>
               <p className="text-base leading-snug">
-                Software Web Developer & Freelancer based in Strasbourg, France.
-                I build and deploy beautiful business websites and applications.
-                Engineering student and passionate for open source. Have a
-                project in mind? Let's connect.
+                Software Developer based in Strasbourg, France. I architect,
+                build and deploy ingenious software applications and systems.
+                Engineering student and passionate for open source. Have a idea
+                or project in mind? Let's connect.
               </p>
             </div>
             <div className="w-full sm:w-[26%] flex justify-center items-center overflow-hidden order-1 sm:order-2">
@@ -112,7 +112,7 @@ function App() {
             </div>
           </div>
         </FadeInSection>
-        <FadeInSection delay={1.8}>
+        <FadeInSection delay={1.6}>
           <div className="my-10">
             <h2 className="text-xl font-bold mb-2">About</h2>
             <p className="text-gray-400  text-justify leading-tight prose max-w-full text-pretty font-sans text-sm ">
