@@ -239,7 +239,7 @@ export default function timeline() {
             </h3>
           </a>
           <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            April 2024
+            December 2023
           </time>
           <p className="text-base font-normal text-gray-500 dark:text-gray-400">
             Developed a Google Search Console API client to address the lack of
@@ -273,7 +273,7 @@ export default function timeline() {
             </h3>
           </a>
           <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            20 January 2023
+            November 2022
           </time>
           <p className="text-base font-normal text-gray-500 dark:text-gray-400">
             Developed an automated food safety labeling system for restaurants,
