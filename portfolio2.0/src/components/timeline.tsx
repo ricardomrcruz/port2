@@ -5,6 +5,7 @@ import {
   FaMediumM,
   FaPhp,
   FaReact,
+  FaYoutube,
 } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
 import { TbWorld } from "react-icons/tb";
@@ -27,6 +28,61 @@ export default function timeline() {
       </div>
       {/* TIMELINE STARTS HERE */}
       <ol className="relative border-s border-gray-200 dark:border-gray-700">
+        <li className="mb-10 ms-8">
+          <span className="absolute flex items-center justify-center w-6 h-6 bg-gray-200 ring-gray-800 rounded-full -start-3 ring-8 ">
+            <FaMediumM color="black" />
+          </span>
+          <a
+            href="https://medium.com/@strasbourgwebsolutions/building-advanced-ai-speech-to-text-analysis-tools-with-assemblyai-4605ccabe018"
+            target="_blank"
+          >
+            <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white hover:text-gray-400 hover:underline underline-offset-4">
+              Building Advanced AI Speech-to-Text Analysis Tools w/ AssemblyAI
+            </h3>
+          </a>
+          <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+            Jan 19, 2025
+          </time>
+          <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+            Wrote a Medium technical article demonstrating how to build an
+            AI-powered Speech-to-Text analysis client using TypeScript,
+            AssemblyAI API, and Angular. The tutorial guides readers through
+            creating a full-featured interface for video analysis, covering
+            implementation of speech recognition features including word
+            detection, content safety analysis, IAB topic categorization,
+            real-time caption synchronization, and sentiment analysis.
+          </p>
+
+          <div className="mt-2  relative w-[50%] aspect-video rounded-lg overflow-hidden">
+            <iframe
+              className="absolute top-0 left-0 w-full h-full"
+              src="https://www.youtube.com/embed/BCXRzmGFX8I"
+              title="Project Demo Video"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+          <div className=" mt-2 flex gap-2">
+            <a
+              href="https://medium.com/@strasbourgwebsolutions/building-advanced-ai-speech-to-text-analysis-tools-with-assemblyai-4605ccabe018"
+              target="_blank"
+            >
+              <span className="bg-gray-800 border-gray-200 rounded-lg border text-gray-200  text-xs py-[3px] px-3 hover:opacity-80 inline-flex items-center">
+                <RiExternalLinkFill color="white" />
+                <span className="pl-1">Link to article</span>
+              </span>
+            </a>
+            <a
+              href="https://www.youtube.com/watch?v=BCXRzmGFX8I"
+              target="_blank"
+            >
+              <span className="bg-gray-800 border-gray-200 rounded-lg border text-gray-200  text-xs py-[3px] px-3  hover:opacity-80 inline-flex items-center">
+                <FaYoutube color="white" />
+                <span className="pl-1">Video</span>
+              </span>
+            </a>
+          </div>
+        </li>
         <li className="mb-10 ms-8">
           <span className="absolute flex items-center justify-center w-6 h-6 bg-gray-200 ring-gray-800 rounded-full -start-3 ring-8  ">
             <FaReact color="#149ECA" />
